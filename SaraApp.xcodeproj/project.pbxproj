@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		122778D3287BDE3500821199 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122778D2287BDE3500821199 /* ArticleModel.swift */; };
+		122778D7287BE2C400821199 /* SchoolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122778D6287BE2C400821199 /* SchoolsView.swift */; };
+		126ADB3A286C40E000C6F6E1 /* SaraAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126ADB39286C40E000C6F6E1 /* SaraAppApp.swift */; };
+		126ADB3E286C40E200C6F6E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126ADB3D286C40E200C6F6E1 /* Assets.xcassets */; };
+		126ADB41286C40E200C6F6E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126ADB40286C40E200C6F6E1 /* Preview Assets.xcassets */; };
+		126ADB48286C424D00C6F6E1 /* ArticleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126ADB47286C424D00C6F6E1 /* ArticleCardView.swift */; };
+		126ADB4A286C7F0700C6F6E1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126ADB49286C7F0700C6F6E1 /* MainView.swift */; };
+		126ADB4D286C877100C6F6E1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126ADB4C286C877100C6F6E1 /* Theme.swift */; };
+		126ADB4F286C879400C6F6E1 /* SchoolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126ADB4E286C879400C6F6E1 /* SchoolModel.swift */; };
+		126ADB51286CD09B00C6F6E1 /* SchoolsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126ADB50286CD09B00C6F6E1 /* SchoolsCardView.swift */; };
+		126ADB53286CD16B00C6F6E1 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126ADB52286CD16B00C6F6E1 /* Test.swift */; };
+		126ADB56286DF47E00C6F6E1 /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126ADB55286DF47E00C6F6E1 /* ArticlesView.swift */; };
+		126ADB63287AE15C00C6F6E1 /* Contentful in Frameworks */ = {isa = PBXBuildFile; productRef = 126ADB62287AE15C00C6F6E1 /* Contentful */; };
+		126ADB66287AE17F00C6F6E1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 126ADB65287AE17F00C6F6E1 /* SDWebImageSwiftUI */; };
+		126ADB6C287AF3E200C6F6E1 /* BlogPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126ADB6B287AF3E200C6F6E1 /* BlogPostView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		122778D2287BDE3500821199 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		122778D6287BE2C400821199 /* SchoolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsView.swift; sourceTree = "<group>"; };
+		126ADB36286C40E000C6F6E1 /* SaraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		126ADB39286C40E000C6F6E1 /* SaraAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaraAppApp.swift; sourceTree = "<group>"; };
+		126ADB3D286C40E200C6F6E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		126ADB40286C40E200C6F6E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		126ADB47286C424D00C6F6E1 /* ArticleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCardView.swift; sourceTree = "<group>"; };
+		126ADB49286C7F0700C6F6E1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		126ADB4C286C877100C6F6E1 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		126ADB4E286C879400C6F6E1 /* SchoolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolModel.swift; sourceTree = "<group>"; };
+		126ADB50286CD09B00C6F6E1 /* SchoolsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsCardView.swift; sourceTree = "<group>"; };
+		126ADB52286CD16B00C6F6E1 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		126ADB55286DF47E00C6F6E1 /* ArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
+		126ADB6B287AF3E200C6F6E1 /* BlogPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		126ADB33286C40E000C6F6E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126ADB66287AE17F00C6F6E1 /* SDWebImageSwiftUI in Frameworks */,
+				126ADB63287AE15C00C6F6E1 /* Contentful in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122778D4287BDF9B00821199 /* article */ = {
+			isa = PBXGroup;
+			children = (
+				126ADB55286DF47E00C6F6E1 /* ArticlesView.swift */,
+				126ADB47286C424D00C6F6E1 /* ArticleCardView.swift */,
+				126ADB6B287AF3E200C6F6E1 /* BlogPostView.swift */,
+			);
+			path = article;
+			sourceTree = "<group>";
+		};
+		122778D5287BE1D900821199 /* school */ = {
+			isa = PBXGroup;
+			children = (
+				122778D6287BE2C400821199 /* SchoolsView.swift */,
+				126ADB50286CD09B00C6F6E1 /* SchoolsCardView.swift */,
+			);
+			path = school;
+			sourceTree = "<group>";
+		};
+		126ADB2D286C40E000C6F6E1 = {
+			isa = PBXGroup;
+			children = (
+				126ADB38286C40E000C6F6E1 /* SaraApp */,
+				126ADB37286C40E000C6F6E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		126ADB37286C40E000C6F6E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				126ADB36286C40E000C6F6E1 /* SaraApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		126ADB38286C40E000C6F6E1 /* SaraApp */ = {
+			isa = PBXGroup;
+			children = (
+				126ADB39286C40E000C6F6E1 /* SaraAppApp.swift */,
+				126ADB4B286C875F00C6F6E1 /* Models */,
+				126ADB54286DF44B00C6F6E1 /* Views */,
+				126ADB52286CD16B00C6F6E1 /* Test.swift */,
+				126ADB3D286C40E200C6F6E1 /* Assets.xcassets */,
+				126ADB3F286C40E200C6F6E1 /* Preview Content */,
+			);
+			path = SaraApp;
+			sourceTree = "<group>";
+		};
+		126ADB3F286C40E200C6F6E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				126ADB40286C40E200C6F6E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		126ADB4B286C875F00C6F6E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				126ADB4C286C877100C6F6E1 /* Theme.swift */,
+				126ADB4E286C879400C6F6E1 /* SchoolModel.swift */,
+				122778D2287BDE3500821199 /* ArticleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		126ADB54286DF44B00C6F6E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				126ADB49286C7F0700C6F6E1 /* MainView.swift */,
+				122778D4287BDF9B00821199 /* article */,
+				122778D5287BE1D900821199 /* school */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		126ADB35286C40E000C6F6E1 /* SaraApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126ADB44286C40E200C6F6E1 /* Build configuration list for PBXNativeTarget "SaraApp" */;
+			buildPhases = (
+				126ADB32286C40E000C6F6E1 /* Sources */,
+				126ADB33286C40E000C6F6E1 /* Frameworks */,
+				126ADB34286C40E000C6F6E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaraApp;
+			packageProductDependencies = (
+				126ADB62287AE15C00C6F6E1 /* Contentful */,
+				126ADB65287AE17F00C6F6E1 /* SDWebImageSwiftUI */,
+			);
+			productName = SaraApp;
+			productReference = 126ADB36286C40E000C6F6E1 /* SaraApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		126ADB2E286C40E000C6F6E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					126ADB35286C40E000C6F6E1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 126ADB31286C40E000C6F6E1 /* Build configuration list for PBXProject "SaraApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 126ADB2D286C40E000C6F6E1;
+			packageReferences = (
+				126ADB61287AE15C00C6F6E1 /* XCRemoteSwiftPackageReference "contentful" */,
+				126ADB64287AE17F00C6F6E1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 126ADB37286C40E000C6F6E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				126ADB35286C40E000C6F6E1 /* SaraApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		126ADB34286C40E000C6F6E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126ADB41286C40E200C6F6E1 /* Preview Assets.xcassets in Resources */,
+				126ADB3E286C40E200C6F6E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		126ADB32286C40E000C6F6E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122778D7287BE2C400821199 /* SchoolsView.swift in Sources */,
+				122778D3287BDE3500821199 /* ArticleModel.swift in Sources */,
+				126ADB51286CD09B00C6F6E1 /* SchoolsCardView.swift in Sources */,
+				126ADB48286C424D00C6F6E1 /* ArticleCardView.swift in Sources */,
+				126ADB4D286C877100C6F6E1 /* Theme.swift in Sources */,
+				126ADB53286CD16B00C6F6E1 /* Test.swift in Sources */,
+				126ADB4A286C7F0700C6F6E1 /* MainView.swift in Sources */,
+				126ADB4F286C879400C6F6E1 /* SchoolModel.swift in Sources */,
+				126ADB3A286C40E000C6F6E1 /* SaraAppApp.swift in Sources */,
+				126ADB56286DF47E00C6F6E1 /* ArticlesView.swift in Sources */,
+				126ADB6C287AF3E200C6F6E1 /* BlogPostView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		126ADB42286C40E200C6F6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		126ADB43286C40E200C6F6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		126ADB45286C40E200C6F6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SaraApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KBMC7D4CC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nate.SaraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		126ADB46286C40E200C6F6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SaraApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KBMC7D4CC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nate.SaraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		126ADB31286C40E000C6F6E1 /* Build configuration list for PBXProject "SaraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126ADB42286C40E200C6F6E1 /* Debug */,
+				126ADB43286C40E200C6F6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126ADB44286C40E200C6F6E1 /* Build configuration list for PBXNativeTarget "SaraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126ADB45286C40E200C6F6E1 /* Debug */,
+				126ADB46286C40E200C6F6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		126ADB61287AE15C00C6F6E1 /* XCRemoteSwiftPackageReference "contentful" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/contentful/contentful.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		126ADB64287AE17F00C6F6E1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		126ADB62287AE15C00C6F6E1 /* Contentful */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 126ADB61287AE15C00C6F6E1 /* XCRemoteSwiftPackageReference "contentful" */;
+			productName = Contentful;
+		};
+		126ADB65287AE17F00C6F6E1 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 126ADB64287AE17F00C6F6E1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 126ADB2E286C40E000C6F6E1 /* Project object */;
+}
